@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #87ceeb;
+  font-family: Arial, sans-serif;
+}
+
+#game-container {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  background-color: #fff;
+  border: 2px solid #333;
+  overflow: hidden;
+}
+
+#basket {
+  position: absolute;
+  bottom: 20px;
+  width: 80px;
+  height: 30px;
+  background-color: #8b4513;
+  border-radius: 10px;
+}
+
+.falling-object {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.fruit {
+  background-color: #ffa07a;
+}
+
+.bomb {
+  background-color: #ff6347;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #333;
+}
